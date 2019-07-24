@@ -1,0 +1,91 @@
+* {
+    max-width: 1600px;
+}
+
+
+/* .container-fluid {
+
+
+} */
+
+#form {
+    margin-top: 200px;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(129, 16, 204);
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    margin-left: 800px;
+}
+
+p {
+    color: black;
+}
+
+#mail {
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+#loggin {
+    background-color: rgb(192, 60, 60);
+    height: 100px;
+}
+
+#pwd {
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+#formAddTravel {
+    margin-top: 200px;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(204, 138, 16);
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    margin-left: 800px;
+}
+
+#titre {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+#content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#picvoyage {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#createTravel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    background-color: red;
+}
