@@ -51,8 +51,7 @@ if (isset($_FILES['image'])){
 
     // if ($_FILES['image']['size'] >= 1000000) {
         
-        $filedir = 'images/';
-        $img= $filedir.$_FILES['image']['name'];
+        // $img = pathinfo($_FILES['image']|['name']);
         $path = pathinfo($_FILES['image']['name']);
         $ext= strtolower($path['extension']);
         $extension_autorisees = array('jpg','jpeg','png','gif');
@@ -61,7 +60,7 @@ if (isset($_FILES['image'])){
 
             //on peut stocker le fichier définitivement
 
-            move_uploaded_file( $_FILES['image']['tmp_name'], $img . 
+            move_uploaded_file( $_FILES['image']['tmp_name'], 'images/' . 
             basename($_FILES['image']['name']));
 
             echo "Le fichier à bien été envoyé !";

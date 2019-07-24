@@ -42,14 +42,23 @@ session_start();
   
   </nav>
 </div>  
-    <form method="post" enctype="multipart/form-data" id="formAddTravel" action="travelAdded.php">
+    <!-- <form method="post" enctype="multipart/form-data" id="formAddTravel" action="travelAdded.php">
         <label for="title"> Titre</label>
         <input type="text" name="title" id="title" >
         <label for="title"> Contenu </label>
         <input type="text" name="content" id="content">
         <input type="file" name="image" id="picvoyage">
         <input type="submit" value="Créer voyage" id="createTravel">
-    </form>
+    </form> -->
+
+    <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
     
 <?php
 

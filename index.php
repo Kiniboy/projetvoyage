@@ -92,7 +92,7 @@ $response = $go_bdd->query('SELECT * FROM voyages');
 // pour afficher les données 
 
 while ($data = $response->fetch(PDO::FETCH_ASSOC)) {
-  echo '<h2>'. $data['title'] . '</h2>' . '<br><br><br>' . '<p>' . $data['content'] . '</p>' . '<br><br><img src="' . $data['image'] . '" class="img">'; 
+  echo '<h2>'. $data['title'] . '</h2>' . '<br><br><br>' . '<p>' . $data['content'] . '</p>' . '<br><br><img src="images/' . $data['image'] . '" class="img">'; 
   
 }
 
